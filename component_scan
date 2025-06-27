@@ -18,7 +18,7 @@ components = {
     'Database': ['migrations/', '*.db', 'core/database/'],
 }
 
-print('=== BlueOps Component Index ===')
+print('=== Platform Component Index ===')
 for component, paths in components.items():
     print(f'\n{component}:')
     found_paths = []
