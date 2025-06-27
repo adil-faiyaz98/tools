@@ -1,0 +1,84 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.log
+*.db
+
+# Python virtual environments
+.venv/
+env/
+venv/
+
+# Bytecode cache
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Node artifacts
+node_modules/
+frontend/node_modules/
+cli/node_modules/
+
+# Compiled JS / TS outputs
+*.tsbuildinfo
+*.map
+
+# Test and coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.tox/
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.nyc_output/
+
+# Docker artifacts
+docker-compose.*
+Dockerfile.*
+*.tar
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Git & pre-commit
+.git/
+.gitignore
+.pre-commit-config.yaml
+
+# Reports / generated output
+reports/*.json
+*.sarif
+
+
+# Secrets / dotenv
+.env.*
+secrets.*
+*.key
+*.pem
+*.crt
+
+# SBOM / metadata
+sbom*.json
+sbom/
+
+# Lint/stub cache
+.ruff_cache/
+.mypy_cache/
+
+
+# Miscellaneous
+virtualenv
